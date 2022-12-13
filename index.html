@@ -27,7 +27,11 @@
         </h1>
         <p>Subscribe and get notified</p>
         <form action="submit">
-          <input type="email" placeholder="Your email adress..." />
+          <input
+            type="email"
+            placeholder="Your email adress..."
+            pattern=" /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/."
+          />
           <button>Notify Me</button>
         </form>
         <img
