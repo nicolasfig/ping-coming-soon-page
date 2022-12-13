@@ -41,9 +41,14 @@ body {
   font-family: var(--franklin);
 }
 
+h1 {
+  margin-bottom: 24px;
+}
+
 p {
   font-size: 20px;
   color: var(--very-dark-blue);
+  margin-bottom: 40px;
 }
 
 main {
@@ -58,6 +63,7 @@ input {
   min-width: 420px;
   min-height: 55px;
   padding: var(--s-16) var(--s-24);
+  margin: 0 var(--s-16) 90px 0;
   border: 1px solid var(--gray);
   border-radius: var(--s-48);
 }
@@ -68,6 +74,10 @@ button {
   border-radius: var(--s-48);
   background-color: var(--blue);
   color: var(--white);
+}
+
+i {
+  color: var(--blue);
 }
 
 .container {
@@ -81,6 +91,7 @@ button {
 
 .ping-logo {
   width: 85px;
+  margin-bottom: 60px;
   height: var(--s-24);
 }
 
@@ -98,12 +109,30 @@ button {
   width: 650px;
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--gray);
+  margin-right: var(--s-16);
+}
+
 .ping-footer {
   font-size: var(--s-16);
   width: 100%;
   text-align: center;
   bottom: var(--s-16);
   color: var(--gray);
+  margin: var(--s-32) 0 50px 0;
 }
 .attribution {
   display: flex;
