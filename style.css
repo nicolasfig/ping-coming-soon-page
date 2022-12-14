@@ -101,7 +101,7 @@ i {
 
 .ping-logo {
   width: 85px;
-  margin-bottom: 60px;
+  margin: 90px 0 60px 0;
   height: var(--s-24);
 }
 
