@@ -67,8 +67,12 @@ input {
   min-height: 55px;
   padding: var(--s-16) var(--s-24);
   margin: 0 var(--s-16) 0 0;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--pale-blue);
   border-radius: var(--s-48);
+}
+
+::placeholder {
+  color: var(--pale-blue);
 }
 
 button {
