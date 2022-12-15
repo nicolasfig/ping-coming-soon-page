@@ -61,13 +61,14 @@ main {
   flex-direction: column;
   min-height: 100vh;
 }
+
 input {
   box-sizing: border-box;
   min-width: 420px;
   min-height: 55px;
   padding: var(--s-16) var(--s-24);
   margin: 0 var(--s-16) 0 0;
-  border: 1px solid var(--pale-blue);
+  border: 2px solid var(--pale-blue);
   border-radius: var(--s-48);
 }
 
@@ -133,11 +134,11 @@ i {
 }
 
 .success-input {
-  border: 1px solid var(--green);
+  border: 2px solid var(--green);
 }
 
 .form-error {
-  border: 1px solid var(--light-red);
+  border: 2px solid var(--light-red);
 }
 
 .input-area {
@@ -197,4 +198,35 @@ i {
 .attribution a {
   text-decoration: none;
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 800px) {
+  .form {
+    flex-direction: column;
+  }
+  p {
+    margin-bottom: 60px;
+  }
+  input {
+    margin: 0 0 var(--s-16) 0;
+    min-width: 560px;
+  }
+  input.email.form-error,
+  input.email.success-input {
+    margin: 0;
+  }
+
+  p.error {
+    margin-bottom: var(--s-16);
+  }
+
+  .illustration {
+    margin: 140px 0 230px 0;
+  }
+
+  .social-icon {
+    width: 60px;
+    height: 60px;
+    font-size: var(--s-24);
+  }
 }
