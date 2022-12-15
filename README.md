@@ -45,8 +45,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://github.com/nicolasfig/interactive-rating-component)
-- Live Site URL: [Live site](https://nicolasfig.github.io/interactive-rating-component/)
+- Solution URL: [Code](https://github.com/nicolasfig/ping-coming-soon-page)
+- Live Site URL: [Live site](https://nicolasfig.github.io/ping-coming-soon-page/)
 
 ## My process
 
